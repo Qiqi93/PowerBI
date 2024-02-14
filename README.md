@@ -5,17 +5,17 @@ PowerBI practice projects
 The stages involves prepare data, designing models, and creating reports. 
 In preparing data phase, I imported data through excel workbook. The data columns includes movie names, release data, duration and so on. In the transformation data stage, I eliminated the rows, filtered the rows in a query.  
 
-The relationship among data.   
-<img width="795" alt="截屏2024-02-14 21 47 57" src="https://github.com/Felicia1993/PowerBI/assets/22839284/cfa9cc36-cf66-4b82-8d91-7fbbad9b73b1">
+The relationship among data.       
+<img width="795" alt="截屏2024-02-14 21 47 57" src="https://github.com/Felicia1993/PowerBI/assets/22839284/cfa9cc36-cf66-4b82-8d91-7fbbad9b73b1">      
 In the image, the Connections table has a movieID column that’s related to the Genre table, which also has a movieID column. The two tables have a One to One (1:1) relationship. An arrow in the middle of the line shows the direction of the filter context flow. 
 
-I have created a calculated column, "Movie URL," using the formula "https://www.imdb.com/title/" & [Movie ID]. This generates a URL based on the movie title.
+I have created a calculated column, "Movie URL," using the formula "https://www.imdb.com/title/" & [Movie ID]. This generates a URL based on the movie title.       
 
-In addition, I've implemented a measure to count movies by release year. The visual representation involves creating a table, duplicating and modifying a table, converting a table into a clustered column chart, and generating a line chart.
+In addition, I've implemented a measure to count movies by release year. The visual representation involves creating a table, duplicating and modifying a table, converting a table into a clustered column chart, and generating a line chart.       
 
-For statistical visualization, I've incorporated a logo image, added a text box, and included a rectangle for enhanced aesthetics.
+For statistical visualization, I've incorporated a logo image, added a text box, and included a rectangle for enhanced aesthetics.      
 
-The final report is outlined below:
+The final report is outlined below:      
 
 **Movie Analytics Report**
 

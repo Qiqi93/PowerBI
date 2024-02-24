@@ -4,6 +4,18 @@ PowerBI practice projects
 ## PowerBI report
 The stages involves prepare data, designing models, and creating reports. 
 In preparing data phase, I imported data through excel workbook. The data columns includes movie names, release data, duration and so on. In the transformation data stage, I eliminated the rows, filtered the rows in a query.  
+### preprocessing
+
+### Designing models
+#### Queries
+Queries are comprised of data sources and a sequence of transformation steps
+#### Model tables
+Model tables are loaded from queries and enhanced with relationships, property settings, and calculations
+relationships
+
+properties
+
+calculations
 
 The relationship among data.       
 <img width="795" alt="截屏2024-02-14 21 47 57" src="https://github.com/Felicia1993/PowerBI/assets/22839284/cfa9cc36-cf66-4b82-8d91-7fbbad9b73b1">      
